@@ -1,3 +1,29 @@
-{
-    ma
+*{
+    padding:0;
+    margin: 0;
+
+}
+#cards{
+    width: 100%;
+    height: 100%;
+    display: flex;/*responsividade para smartfhone dando flexibilidade para diferentes tamanhos*/
+    flex-direction: row;/*posicionar itens na linha*/
+    align-items: center;/*centralizar elementos no centro*/
+    justify-content: center;/*centralizar elemento sno meio da div*/
+    flex-wrap: wrap;/*adaptar elementos na linha abaixo dependendo do tamanho da tela*/
+    background-color: aqua;
+
+}
+
+.card{
+    width: 150px;
+    height: 200px;
+    display: flex;/**/
+    justify-content: center; /*centralizar paragrafo no meio do elemento*/
+     align-items: center;  /*centralizar paragrafo no meio verticalmente*/
+    background-color: black;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+
 }
