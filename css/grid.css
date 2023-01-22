@@ -1,0 +1,13 @@
+/* .opcoes{
+    display: grid;
+    gap: 1rem;
+}
+
+.opcoes img:nth-child(1){
+    grid-column: 1/1; 
+}
+
+.opcoes img:nth-child(4){
+    grid-column: 1/1;
+    grid-row: 2/1; 
+} */
