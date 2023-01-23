@@ -99,22 +99,42 @@ main {
 
 
 .pratos {
-    display: grid;
+    display: none;
     grid-template-columns: 50% 50%;
     background-color: bisque;
     
    
 }
 
+.petisco {
+    display: none;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(225, 198, 165);
+}
+
+.Sobremesa {
+    display: none;
+    grid-template-columns: 50% 50%;
+    background-color: bisque;
+}
+
+.bebida {
+    display: none;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(225, 198, 165);
+}
+
 .imagem-pratos{
     width: 50%;
-    height: 50%;
+    height: 60%;
 }
 
 .ilustracao{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .titulo{
