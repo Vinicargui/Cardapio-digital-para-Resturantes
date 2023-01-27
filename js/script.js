@@ -1,5 +1,17 @@
 const btns = document.querySelectorAll(".btn");
-const sections = document.querySelectorAll("section");
+const sections = document.querySelectorAll(".sessao");
+
+
+
+// btns.forEach((btn)=>{
+//      btn.addEventListener("click",()=>{
+//          sections.forEach(sessao=>{
+//              console.log("1")
+//          })
+//      })
+// })
+
+
 
 // btns.forEach((e)=>{
 //         e.addEventListener("click",()=>{

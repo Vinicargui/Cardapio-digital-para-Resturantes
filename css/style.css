@@ -98,15 +98,15 @@ main {
 }
 
 
-.prato {
-    display: none;
+.sessao{
+    display:none;
     grid-template-columns: 50% 50%;
     background-color: bisque;
     
    
 }
 
-.petisco {
+/* .petisco {
     display: none;
     grid-template-columns: 50% 50%;
     background-color: rgb(225, 198, 165);
@@ -122,7 +122,7 @@ main {
     display: none;
     grid-template-columns: 50% 50%;
     background-color: rgb(225, 198, 165);
-}
+} */
 
 .imagem-pratos{
     width: 50%;
